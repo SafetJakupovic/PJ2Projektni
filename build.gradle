@@ -1,0 +1,17 @@
+plugins {
+  id 'java'
+}
+
+jar {
+  manifest {
+    attributes 'Main-Class': 'main.ePJ2'
+  }
+}
+
+repositories {
+  mavenCentral()
+}
+
+/*task wrapper(type: Wrapper) {
+  gradleVersion: '8.9'
+}*/

@@ -1,6 +1,6 @@
 package vehicles;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 /**
  * Automobile
@@ -8,16 +8,14 @@ import java.util.Date;
 public class Automobile extends Vehicle {
   private static int idNum;
   private String ID;
-  private Date dateOfPurchase;
+  private LocalDateTime dateOfPurchase;
   private String description;
-  private int numOfSeats;
 
   public Automobile(String manufacturer, String model, double price,
-      Date dateOfPurchase, String description, int numOfSeats) {
+      LocalDateTime dateOfPurchase, String description) {
     super(manufacturer, model, price);
     this.dateOfPurchase = dateOfPurchase;
     this.description = description;
-    this.numOfSeats = numOfSeats;
     idNum++;
     this.ID = "A" + idNum;
   }
@@ -26,11 +24,11 @@ public class Automobile extends Vehicle {
     return ID;
   }
 
-  public void setDateOfPurchase(Date dateOfPurchase) {
+  public void setDateOfPurchase(LocalDateTime dateOfPurchase) {
     this.dateOfPurchase = dateOfPurchase;
   }
 
-  public Date getDateOfPurchase() {
+  public LocalDateTime getDateOfPurchase() {
     return dateOfPurchase;
   }
 
@@ -42,17 +40,11 @@ public class Automobile extends Vehicle {
     return description;
   }
 
-  public void setNumOfSeats(int numOfSeats) {
-    this.numOfSeats = (numOfSeats > 0) ? numOfSeats : this.numOfSeats;
-  }
-
-  public int getNumOfSeats() {
-    return numOfSeats;
-  }
+  // TODO: skontati sta i kako za vise mjesta
 
   @Override
   public String toString() {
     return super.toString() + "\nDatum nabavke: " + dateOfPurchase +
-        "\nBroj sjedista: " + numOfSeats + "\nOpis: " + description;
+        "\nOpis: " + description;
   }
 }

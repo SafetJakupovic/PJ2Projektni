@@ -1,0 +1,7 @@
+Osnovna cijena: 10
+Udaljenost: Siri dio grada
+Kvarovi: ne
+Promocija: 0
+Popust: 0
+UKUPNO: 1400
+IZNOS ZA PLACANJE: 1400

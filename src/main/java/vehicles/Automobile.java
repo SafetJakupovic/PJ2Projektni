@@ -1,34 +1,28 @@
 package vehicles;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
+import main.ePJ2;
 
 /**
  * Automobile
  */
 public class Automobile extends Vehicle {
-  private static int idNum;
-  private String ID;
-  private LocalDateTime dateOfPurchase;
+  private LocalDate dateOfPurchase;
   private String description;
 
-  public Automobile(String manufacturer, String model, double price,
-      LocalDateTime dateOfPurchase, String description) {
-    super(manufacturer, model, price);
+  public Automobile(String ID, String manufacturer, String model, double price,
+      LocalDate dateOfPurchase, String description) {
+    super(ID, manufacturer, model, price);
     this.dateOfPurchase = dateOfPurchase;
     this.description = description;
-    idNum++;
-    this.ID = "A" + idNum;
+    this.unitPrice = Integer.parseInt(ePJ2.properties.getProperty("CAR_UNIT_PRICE"));
   }
 
-  public String getID() {
-    return ID;
-  }
-
-  public void setDateOfPurchase(LocalDateTime dateOfPurchase) {
+  public void setDateOfPurchase(LocalDate dateOfPurchase) {
     this.dateOfPurchase = dateOfPurchase;
   }
 
-  public LocalDateTime getDateOfPurchase() {
+  public LocalDate getDateOfPurchase() {
     return dateOfPurchase;
   }
 

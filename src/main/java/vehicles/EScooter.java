@@ -1,23 +1,18 @@
 package vehicles;
 
+import main.ePJ2;
+
 /**
  * EScooter
  */
 public class EScooter extends Vehicle {
-  private static int idNum;
-  private String ID;
   private int maxVelocity;
 
-  public EScooter(String manufacturer, String model, double price,
+  public EScooter(String ID, String manufacturer, String model, double price,
       int maxVelocity) {
-    super(manufacturer, model, price);
+    super(ID, manufacturer, model, price);
     this.maxVelocity = maxVelocity;
-    EScooter.idNum++;
-    this.ID = "T" + idNum;
-  }
-
-  public String getID() {
-    return ID;
+    this.unitPrice = Integer.parseInt(ePJ2.properties.getProperty("SCOOTER_UNIT_PRICE"));
   }
 
   public void setMaxVelocity(int maxVelocity) {

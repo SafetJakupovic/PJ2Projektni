@@ -1,7 +1,0 @@
-Datum: 2.6.2024.
-Ukupan prihod: 12680.0
-Ukupan popust: 70.0
-Ukupno promocije: 0.0
-Ukupan iznos svih voznji: 
-Ukupan iznos za odrzavanje: 2536.0
-Ukupan iznos za popravke kvarova: 8028.000000000002

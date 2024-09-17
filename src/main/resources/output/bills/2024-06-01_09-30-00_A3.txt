@@ -1,7 +1,13 @@
+Datum i vrijeme: 1.6.2024. 09:30
+Korisnik: K2
+ID prevoznog sredstva: A3
+Pocetna lokacija: [15,15]
+Odrediste: [17,17]
+Trajanje: 8
 Osnovna cijena: 15
 Udaljenost: Siri dio grada
 Kvarovi: ne
-Promocija: 0
-Popust: 0
-UKUPNO: 1200
-IZNOS ZA PLACANJE: 1200
+Promocija: 0.0
+Popust: 0.0
+UKUPNO: 1200.0
+IZNOS ZA PLACANJE: 1200.0

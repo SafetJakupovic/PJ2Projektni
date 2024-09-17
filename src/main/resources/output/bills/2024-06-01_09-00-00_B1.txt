@@ -1,7 +1,13 @@
+Datum i vrijeme: 1.6.2024. 09:00
+Korisnik: K2
+ID prevoznog sredstva: B1
+Pocetna lokacija: [2,1]
+Odrediste: [7,13]
+Trajanje: 4
 Osnovna cijena: 5
-Udaljenost: Uzi dio grada
+Udaljenost: Siri dio grada
 Kvarovi: da
-Promocija: 10
-Popust: 0
-UKUPNO: 100
-IZNOS ZA PLACANJE: 0
+Promocija: 20.0
+Popust: 0.0
+UKUPNO: 200.0
+IZNOS ZA PLACANJE: 0.0

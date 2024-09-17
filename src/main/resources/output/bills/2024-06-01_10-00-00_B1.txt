@@ -1,0 +1,13 @@
+Datum i vrijeme: 1.6.2024. 10:00
+Korisnik: K3
+ID prevoznog sredstva: B1
+Pocetna lokacija: [7,5]
+Odrediste: [9,14]
+Trajanje: 10
+Osnovna cijena: 5
+Udaljenost: Uzi dio grada
+Kvarovi: ne
+Promocija: 0.0
+Popust: 0.0
+UKUPNO: 250.0
+IZNOS ZA PLACANJE: 250.0

@@ -1,0 +1,7 @@
+Ukupan prihod: 30720.0
+Ukupan popust: 130.0
+Ukupno promocije: 315.0
+Ukupan iznos za odrzavanje: 6144.0
+Ukupan iznos za popravke kvarova: 23392.000000000007
+Ukupni troskovi kompanije: 6144.0
+Ukupan porez: -496.00000000000074

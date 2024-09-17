@@ -1,0 +1,13 @@
+Datum i vrijeme: 3.6.2024. 11:30
+Korisnik: K4
+ID prevoznog sredstva: T1
+Pocetna lokacija: [11,4]
+Odrediste: [16,2]
+Trajanje: 5
+Osnovna cijena: 10
+Udaljenost: Siri dio grada
+Kvarovi: ne
+Promocija: 0.0
+Popust: 0.0
+UKUPNO: 500.0
+IZNOS ZA PLACANJE: 500.0

@@ -1,0 +1,13 @@
+Datum i vrijeme: 2.6.2024. 11:30
+Korisnik: K1
+ID prevoznog sredstva: T8
+Pocetna lokacija: [9,2]
+Odrediste: [3,12]
+Trajanje: 4
+Osnovna cijena: 10
+Udaljenost: Siri dio grada
+Kvarovi: ne
+Promocija: 0.0
+Popust: 0.0
+UKUPNO: 400.0
+IZNOS ZA PLACANJE: 400.0
